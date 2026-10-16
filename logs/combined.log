@@ -1,0 +1,14 @@
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-10-16T17:28:31.778Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:29:21 +0000] \"GET / HTTP/1.1\" 200 43 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:29:21.698Z"}
+{"level":"warn","message":"404 Not Found: /favicon.ico","timestamp":"2026-10-16T17:29:21.789Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:29:21 +0000] \"GET /favicon.ico HTTP/1.1\" 404 29 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:29:21.794Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:29:42 +0000] \"GET /health HTTP/1.1\" 200 48 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:29:42.029Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:29:58 +0000] \"GET /slow HTTP/1.1\" 200 18 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:29:58.775Z"}
+{"level":"warn","message":"ALERT: Slow request GET /slow took 1522ms","timestamp":"2026-10-16T17:29:58.782Z"}
+{"level":"error","message":"Test error: something went wrong | GET /error","timestamp":"2026-10-16T17:30:26.632Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:30:26 +0000] \"GET /error HTTP/1.1\" 500 35 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:30:26.635Z"}
+{"level":"error","message":"ALERT: High error rate 20.0%","timestamp":"2026-10-16T17:30:31.801Z"}
+{"level":"info","message":"::1 - - [16/Oct/2026:17:30:48 +0000] \"GET /metrics HTTP/1.1\" 200 79 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","timestamp":"2026-10-16T17:30:48.587Z"}
+{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:31:01.809Z"}
+{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:31:31.823Z"}
+{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:32:01.827Z"}
