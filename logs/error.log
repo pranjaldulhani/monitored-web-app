@@ -1,5 +1,0 @@
-{"level":"error","message":"Test error: something went wrong | GET /error","timestamp":"2026-10-16T17:30:26.632Z"}
-{"level":"error","message":"ALERT: High error rate 20.0%","timestamp":"2026-10-16T17:30:31.801Z"}
-{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:31:01.809Z"}
-{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:31:31.823Z"}
-{"level":"error","message":"ALERT: High error rate 16.7%","timestamp":"2026-10-16T17:32:01.827Z"}
